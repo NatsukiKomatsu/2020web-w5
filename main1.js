@@ -23,6 +23,8 @@ function result() {
 
   newStory = newStory.replace(':insertx:',xItem);
   newStory = newStory.replace(':insertx:',xItem);
+  newStory = newStory.replace(':insertx:',xItem);
+  newStory = newStory.replace(':inserty:',yItem);
   newStory = newStory.replace(':inserty:',yItem);
   newStory = newStory.replace(':insertz:',zItem);
 

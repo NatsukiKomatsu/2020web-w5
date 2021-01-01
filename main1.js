@@ -7,10 +7,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = 'It was 華氏94度 outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300ポンド, and it was a hot day.';
-let insertX = ['Willy the Goblin','Big Daddy','Father Christmas'];
-let insertY = ['the soup kitchen','Disneyland','the White House'];
-let insertZ = ['spontaneously combusted','melted into a puddle on the sidewalk','turned into a slug and crawled away'];
+let storyText = '外は華氏94度で暑かったが、:insertx:は散歩に行きました。:insertx:は:inserty:。しばらく歩いていると:insertz:. Bobはそれを見て驚いたが, weighs 300ポンドの:insertx:は驚かなかった。なぜなら:inserty:では当たり前のことであるからだ。';
+let insertX = ['リラックマ','Big Daddy','Father Christmas'];
+let insertY = ['ハチミツの森に着きました','Disneyland','the White House'];
+let insertZ = ['ふさふさの胸毛が生えた茶色いくまがいた','melted into a puddle on the sidewalk','turned into a slug and crawled away'];
 
 randomize.addEventListener('click', result);
 
